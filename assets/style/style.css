@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+    background: linear-gradient(45deg, #113, #212121);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulaire {
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.titre {
+    flex: 1;
+}
+
+.champ-de-saisis {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    texte-align
+}
+
+.passe-oublier {
+    flex: 1;
+}
+
+.bouton-connecter {
+    flex: 1;
+}
+
+.lien-inscrire {
+    flex: 1;
+}
+
+
+
